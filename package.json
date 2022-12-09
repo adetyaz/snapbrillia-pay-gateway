@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@martifylabs/mesh": "^1.2.0-beta.4",
+    "@martifylabs/mesh-react": "^1.1.1",
     "@types/node": "18.11.12",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
