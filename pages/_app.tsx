@@ -20,9 +20,10 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
-import { Button } from '@mui/material';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import GridViewIcon from '@mui/icons-material/GridView';
+import InsertLinkIcon from '@mui/icons-material/InsertLink';
+import { Button, Link } from '@mui/material';
 import { color } from '@mui/system';
 
 const drawerWidth = 240;
@@ -108,10 +109,10 @@ export default function App({ Component, pageProps }: AppProps) {
 							<MenuIcon />
 						</IconButton>
 						<Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-							Drawer
+							Cardano-Pay-Gateway
 						</Typography>
-						<Button sx={{ background: '#914ddf', color: '#FEFEFE'}} onClick={connect}>
-							Connect Wallet
+						<Button sx={{ background: '#914ddf', color: '#FEFEFE', width: '9.5rem' }} onClick={connect}>
+							Edmund EE
 						</Button>
 					</Toolbar>
 				</AppBar>
@@ -135,29 +136,42 @@ export default function App({ Component, pageProps }: AppProps) {
 					</DrawerHeader>
 					<Divider />
 					<List>
-						{['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-							<ListItem key={text} disablePadding>
-								<ListItemButton>
-									<ListItemIcon>
-										{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-									</ListItemIcon>
-									<ListItemText primary={text} />
-								</ListItemButton>
-							</ListItem>
-						))}
+						<ListItem disablePadding>
+							<ListItemButton>
+								<ListItemIcon>
+									<GridViewIcon />
+								</ListItemIcon>
+								<Link href={'/home'} color='inherit' underline='none' variant='subtitle1'>Dashboard</Link>
+							</ListItemButton>
+						</ListItem>
 					</List>
 					<Divider />
 					<List>
-						{['All mail', 'Trash', 'Spam'].map((text, index) => (
-							<ListItem key={text} disablePadding>
-								<ListItemButton>
-									<ListItemIcon>
-										{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-									</ListItemIcon>
-									<ListItemText primary={text} />
-								</ListItemButton>
-							</ListItem>
-						))}
+						<ListItem disablePadding>
+							<ListItemButton>
+								<ListItemIcon>
+									<InsertLinkIcon />
+								</ListItemIcon>
+								{/* <ListItemText primary={'Payment button'} />'Payment link' */}
+								<Link href={'/payment-link'} color='inherit' underline='none' variant='subtitle1'>Payment link</Link>
+							</ListItemButton>
+						</ListItem>
+						<ListItem disablePadding>
+							<ListItemButton>
+								<ListItemIcon>
+									<MoreHorizIcon />
+								</ListItemIcon>
+								<Link href={'/payment-button'} color='inherit' underline='none' variant='subtitle1'>Payment button</Link>
+							</ListItemButton>
+						</ListItem>
+						<ListItem disablePadding>
+							<ListItemButton>
+								<ListItemIcon>
+									<MoreHorizIcon />
+								</ListItemIcon>
+								<Link href={'/ecommerce'} color='inherit' underline='none' variant='subtitle1'>Ecommerce </Link>
+							</ListItemButton>
+						</ListItem>
 					</List>
 				</Drawer>
 				<Main open={open}>
