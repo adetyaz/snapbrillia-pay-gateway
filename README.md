@@ -1,3 +1,29 @@
+PROJECT: Snapbrillia-pay-gateway
+
+TEAM SNAPBRILLIA-PAY-GATEWAY
+
+
+1. Edmund Ebiyenrin Moses
+  Email: eebiyenrin@gmail.com
+  Wallet Address: DdzFFzCqrhsuPU9eJWTHqGi35y5buPSc8ZnGe3pFJ6cFAJyJSiJFBJDXiCU3B1vwuXJPC5mmY58RbJzy1x7AiFuoAj9ycmiybHLGi9Wv
+2. Temitope Alabi
+  Email: t.banji@rocketmail.com
+  Wallet Address: addr1v803s5h3jvy0ft0ge8p375xccv9qkqjw4un9r8qtdteu7wgzgveqj
+3. Paulo Jerónimo Gay Diaz
+  Email: paulodiazg32@gmail.com
+  Wallet Address: addr1qyy60f9shc40h58rg24hmale5grxy4g9prxzd6msm4rxnmqwfqkeqksr94ll46cgrxf6ne750s8waq39fa2gp9ew77kskjzpxm
+4. Adetayo Lasisi
+  Email: adetayo.lasisi@gmail.com
+  Wallet Address: addr1v842h9l30sa2vksj2s537pr0940e2h3jtuez9wn5cy99fngyn9p5e
+6. Francisco Llamas de la Fuente
+  Email: francisco.llamas@gmail.com
+  Wallet Address: addr1q8lxqq7ya67lh30j6f7r0sftn7ux85x7hkc5pkhze0qyncvt405ch7h2h0txd0larlgn3frr52j95g58vnngkljcyxhqea0llv
+
+
+Web Live Demo: https://snapbrillia-demo.vercel.app/
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
