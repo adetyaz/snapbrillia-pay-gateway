@@ -15,9 +15,12 @@ TEAM SNAPBRILLIA-PAY-GATEWAY
 4. Adetayo Lasisi
   Email: adetayo.lasisi@gmail.com
   Wallet Address: addr1v842h9l30sa2vksj2s537pr0940e2h3jtuez9wn5cy99fngyn9p5e
-6. Francisco Llamas de la Fuente
+5. Francisco Llamas de la Fuente
   Email: francisco.llamas@gmail.com
   Wallet Address: addr1q8lxqq7ya67lh30j6f7r0sftn7ux85x7hkc5pkhze0qyncvt405ch7h2h0txd0larlgn3frr52j95g58vnngkljcyxhqea0llv
+6. Omotosho Israel Oyedotun
+  Email: dotuntosh@gmail.com
+  Wallet Address: addr1v84v4s5xzx7cf3m4dclh2vkrvpzwfnfgr3pwluhrmyknn3qygwzkm
 
 
 Web Live Demo: https://snapbrillia-demo.vercel.app/
